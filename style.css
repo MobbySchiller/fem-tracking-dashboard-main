@@ -207,12 +207,16 @@ body {
 }
 
 .attribution {
-    color: white;
+    color: var(--font-color);
     text-align: center;
 }
 
 .attribution a {
-     color: white;
+     color: var(--font-color);
+}
+
+.color {
+    color: var(--font-color);
 }
 
 @media (min-width: 768px) {
